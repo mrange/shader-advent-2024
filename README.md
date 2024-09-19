@@ -13,3 +13,33 @@ So, I’m excited to announce the **Shader Advent Calendar 2024**! 🎅🎄 For 
 3. **Submit it** either by sending it to me directly or via a pull request to the Shader Advent GitHub repo.
 
 Let’s make this a December to remember, packed with shader magic! ✨
+
+### Shader Advent Calendar 2024 Schedule
+
+| Date       | Author          | Blog Title          |
+|------------|-----------------|---------------------|
+| Dec 1, 2024 | *TBD*           | *TBD*               |
+| Dec 2, 2024 | *TBD*           | *TBD*               |
+| Dec 3, 2024 | *TBD*           | *TBD*               |
+| Dec 4, 2024 | *TBD*           | *TBD*               |
+| Dec 5, 2024 | *TBD*           | *TBD*               |
+| Dec 6, 2024 | *TBD*           | *TBD*               |
+| Dec 7, 2024 | *TBD*           | *TBD*               |
+| Dec 8, 2024 | *TBD*           | *TBD*               |
+| Dec 9, 2024 | *TBD*           | *TBD*               |
+| Dec 10, 2024 | *TBD*          | *TBD*               |
+| Dec 11, 2024 | *TBD*          | *TBD*               |
+| Dec 12, 2024 | *TBD*          | *TBD*               |
+| Dec 13, 2024 | *TBD*          | *TBD*               |
+| Dec 14, 2024 | *TBD*          | *TBD*               |
+| Dec 15, 2024 | *TBD*          | *TBD*               |
+| Dec 16, 2024 | *TBD*          | *TBD*               |
+| Dec 17, 2024 | *TBD*          | *TBD*               |
+| Dec 18, 2024 | *TBD*          | *TBD*               |
+| Dec 19, 2024 | *TBD*          | *TBD*               |
+| Dec 20, 2024 | *TBD*          | *TBD*               |
+| Dec 21, 2024 | *TBD*          | *TBD*               |
+| Dec 22, 2024 | *TBD*          | *TBD*               |
+| Dec 23, 2024 | *TBD*          | *TBD*               |
+| Dec 24, 2024 | *TBD*          | *TBD*               |
+| Dec 25, 2024 | *TBD*          | *TBD*               |
