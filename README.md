@@ -16,30 +16,30 @@ Let’s make this a December to remember, packed with shader magic! ✨
 
 ### Shader Advent Calendar 2024 Schedule
 
-| Date       | Author          | Blog Title          |
-|------------|-----------------|---------------------|
-| Dec 1, 2024 | *TBD*           | *TBD*               |
-| Dec 2, 2024 | *TBD*           | *TBD*               |
-| Dec 3, 2024 | *TBD*           | *TBD*               |
-| Dec 4, 2024 | *TBD*           | *TBD*               |
-| Dec 5, 2024 | *TBD*           | *TBD*               |
-| Dec 6, 2024 | *TBD*           | *TBD*               |
-| Dec 7, 2024 | *TBD*           | *TBD*               |
-| Dec 8, 2024 | *TBD*           | *TBD*               |
-| Dec 9, 2024 | *TBD*           | *TBD*               |
-| Dec 10, 2024 | *TBD*          | *TBD*               |
-| Dec 11, 2024 | *TBD*          | *TBD*               |
-| Dec 12, 2024 | *TBD*          | *TBD*               |
-| Dec 13, 2024 | *TBD*          | *TBD*               |
-| Dec 14, 2024 | *TBD*          | *TBD*               |
-| Dec 15, 2024 | *TBD*          | *TBD*               |
-| Dec 16, 2024 | *TBD*          | *TBD*               |
-| Dec 17, 2024 | *TBD*          | *TBD*               |
-| Dec 18, 2024 | *TBD*          | *TBD*               |
-| Dec 19, 2024 | *TBD*          | *TBD*               |
-| Dec 20, 2024 | *TBD*          | *TBD*               |
-| Dec 21, 2024 | *TBD*          | *TBD*               |
-| Dec 22, 2024 | *TBD*          | *TBD*               |
-| Dec 23, 2024 | *TBD*          | *TBD*               |
-| Dec 24, 2024 | *TBD*          | *TBD*               |
-| Dec 25, 2024 | *TBD*          | *TBD*               |
+| Date    | Author          | Blog Title          |
+|---------|-----------------|---------------------|
+| Dec 1   | *TBD*           | *TBD*               |
+| Dec 2   | *TBD*           | *TBD*               |
+| Dec 3   | *TBD*           | *TBD*               |
+| Dec 4   | *TBD*           | *TBD*               |
+| Dec 5   | *TBD*           | *TBD*               |
+| Dec 6   | *TBD*           | *TBD*               |
+| Dec 7   | *TBD*           | *TBD*               |
+| Dec 8   | *TBD*           | *TBD*               |
+| Dec 9   | *TBD*           | *TBD*               |
+| Dec 10  | *TBD*           | *TBD*               |
+| Dec 11  | *TBD*           | *TBD*               |
+| Dec 12  | *TBD*           | *TBD*               |
+| Dec 13  | *TBD*           | *TBD*               |
+| Dec 14  | *TBD*           | *TBD*               |
+| Dec 15  | *TBD*           | *TBD*               |
+| Dec 16  | *TBD*           | *TBD*               |
+| Dec 17  | *TBD*           | *TBD*               |
+| Dec 18  | *TBD*           | *TBD*               |
+| Dec 19  | *TBD*           | *TBD*               |
+| Dec 20  | *TBD*           | *TBD*               |
+| Dec 21  | *TBD*           | *TBD*               |
+| Dec 22  | *TBD*           | *TBD*               |
+| Dec 23  | *TBD*           | *TBD*               |
+| Dec 24  | *TBD*           | *TBD*               |
+| Dec 25  | *TBD*           | *TBD*               |
