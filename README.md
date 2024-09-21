@@ -4,7 +4,7 @@ Hey there, shader enthusiasts!
 
 Every year, I love diving into the creative energy of the [F# Advent](https://sergeytihon.com/fsadvent/). It got me thinking—why not do something just as awesome, but focused on shader art?
 
-So, I’m proposing **Shader Advent Calendar 2024**! 🎅🎄 For each day in December, one of us will share a blog post about something cool and shader-related. It could be a technique, a concept, or even a full-on demo—whatever inspires you! And if you've got a Shadertoy link to share, even better! Each day, we’ll unveil a fresh blog post, so we’ll have something exciting to explore together leading up to Christmas.
+So, I’m proposing **Shader Advent Calendar 2024**! 🎅🎄 For each day in December, one of us will share a blog post about something cool and shader-related. It could be a technique, a concept, or even a full-on demo—whatever inspires you! And if you've got a Shadertoy/PoshBrolly link to share, even better! Each day, we’ll unveil a fresh blog post, so we’ll have something exciting to explore together leading up to Christmas.
 
 ### How to Join:
 
