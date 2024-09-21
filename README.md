@@ -4,7 +4,7 @@ Hey there, shader enthusiasts!
 
 Every year, I love diving into the creative energy of the [F# Advent](https://sergeytihon.com/fsadvent/). It got me thinking—why not do something just as awesome, but focused on shader art?
 
-So, I’m excited to announce the **Shader Advent Calendar 2024**! 🎅🎄 For each day in December, one of us will share a blog post about something cool and shader-related. It could be a technique, a concept, or even a full-on demo—whatever inspires you! And if you've got a Shadertoy link to share, even better! Each day, we’ll unveil a fresh blog post, so we’ll have something exciting to explore together leading up to Christmas.
+So, I’m proposing **Shader Advent Calendar 2024**! 🎅🎄 For each day in December, one of us will share a blog post about something cool and shader-related. It could be a technique, a concept, or even a full-on demo—whatever inspires you! And if you've got a Shadertoy link to share, even better! Each day, we’ll unveil a fresh blog post, so we’ll have something exciting to explore together leading up to Christmas.
 
 ### How to Join:
 
@@ -16,30 +16,30 @@ Let’s make this a December to remember, packed with shader magic! ✨
 
 ### Shader Advent Calendar 2024 Schedule
 
-| Date    | Author          | Blog Title          |
-|---------|-----------------|---------------------|
-| Dec 1   | *TBD*           | *TBD*               |
-| Dec 2   | *TBD*           | *TBD*               |
-| Dec 3   | *TBD*           | *TBD*               |
-| Dec 4   | *TBD*           | *TBD*               |
-| Dec 5   | *TBD*           | *TBD*               |
-| Dec 6   | *TBD*           | *TBD*               |
-| Dec 7   | *TBD*           | *TBD*               |
-| Dec 8   | *TBD*           | *TBD*               |
-| Dec 9   | *TBD*           | *TBD*               |
-| Dec 10  | *TBD*           | *TBD*               |
-| Dec 11  | *TBD*           | *TBD*               |
-| Dec 12  | *TBD*           | *TBD*               |
-| Dec 13  | *TBD*           | *TBD*               |
-| Dec 14  | *TBD*           | *TBD*               |
-| Dec 15  | *TBD*           | *TBD*               |
-| Dec 16  | *TBD*           | *TBD*               |
-| Dec 17  | *TBD*           | *TBD*               |
-| Dec 18  | *TBD*           | *TBD*               |
-| Dec 19  | *TBD*           | *TBD*               |
-| Dec 20  | *TBD*           | *TBD*               |
-| Dec 21  | *TBD*           | *TBD*               |
-| Dec 22  | *TBD*           | *TBD*               |
-| Dec 23  | *TBD*           | *TBD*               |
-| Dec 24  | *TBD*           | *TBD*               |
-| Dec 25  | *TBD*           | *TBD*               |
+| Date    | Author          | Blog Title               |
+|---------|-----------------|--------------------------|
+| Dec 1   | Mårten Rånge    | Some tricks I learnt     |
+| Dec 2   | *TBD*           | *TBD*                    |
+| Dec 3   | *TBD*           | *TBD*                    |
+| Dec 4   | *TBD*           | *TBD*                    |
+| Dec 5   | *TBD*           | *TBD*                    |
+| Dec 6   | *TBD*           | *TBD*                    |
+| Dec 7   | *TBD*           | *TBD*                    |
+| Dec 8   | *TBD*           | *TBD*                    |
+| Dec 9   | *TBD*           | *TBD*                    |
+| Dec 10  | *TBD*           | *TBD*                    |
+| Dec 11  | *TBD*           | *TBD*                    |
+| Dec 12  | *TBD*           | *TBD*                    |
+| Dec 13  | *TBD*           | *TBD*                    |
+| Dec 14  | *TBD*           | *TBD*                    |
+| Dec 15  | *TBD*           | *TBD*                    |
+| Dec 16  | *TBD*           | *TBD*                    |
+| Dec 17  | *TBD*           | *TBD*                    |
+| Dec 18  | *TBD*           | *TBD*                    |
+| Dec 19  | *TBD*           | *TBD*                    |
+| Dec 20  | *TBD*           | *TBD*                    |
+| Dec 21  | *TBD*           | *TBD*                    |
+| Dec 22  | *TBD*           | *TBD*                    |
+| Dec 23  | *TBD*           | *TBD*                    |
+| Dec 24  | *TBD*           | *TBD*                    |
+| Dec 25  | *TBD*           | *TBD*                    |
