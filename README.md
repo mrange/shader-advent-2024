@@ -19,7 +19,7 @@ Let’s make this a December to remember, packed with shader magic! ✨
 | Date    | Author          | Blog Title               |
 |---------|-----------------|--------------------------|
 | Dec 1   | mrange          | Some tricks I learnt     |
-| Dec 2   | *TBD*           | *TBD*                    |
+| Dec 2   | TristanC        | Smooth Midi Modulation   |
 | Dec 3   | *TBD*           | *TBD*                    |
 | Dec 4   | *TBD*           | *TBD*                    |
 | Dec 5   | *TBD*           | *TBD*                    |
