@@ -30,7 +30,7 @@ Let’s make this a December to remember, packed with shader magic! ✨
 | Dec 10  | *TBD*           | *TBD*                    |
 | Dec 11  | *TBD*           | *TBD*                    |
 | Dec 12  | *TBD*           | *TBD*                    |
-| Dec 13  | *TBD*           | *TBD*                    |
+| Dec 13  | Daniel B        | *TBD*                    |
 | Dec 14  | *TBD*           | *TBD*                    |
 | Dec 15  | *TBD*           | *TBD*                    |
 | Dec 16  | *TBD*           | *TBD*                    |
