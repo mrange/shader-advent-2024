@@ -18,7 +18,7 @@ Let’s make this a December to remember, packed with shader magic! ✨
 
 | Date    | Author          | Blog Title               |
 |---------|-----------------|--------------------------|
-| Dec 1   | Mårten Rånge    | Some tricks I learnt     |
+| Dec 1   | mrange          | Some tricks I learnt     |
 | Dec 2   | *TBD*           | *TBD*                    |
 | Dec 3   | *TBD*           | *TBD*                    |
 | Dec 4   | *TBD*           | *TBD*                    |
@@ -30,7 +30,7 @@ Let’s make this a December to remember, packed with shader magic! ✨
 | Dec 10  | *TBD*           | *TBD*                    |
 | Dec 11  | *TBD*           | *TBD*                    |
 | Dec 12  | *TBD*           | *TBD*                    |
-| Dec 13  | Daniel B        | *TBD*                    |
+| Dec 13  | codecontemplator| *TBD*                    |
 | Dec 14  | *TBD*           | *TBD*                    |
 | Dec 15  | *TBD*           | *TBD*                    |
 | Dec 16  | *TBD*           | *TBD*                    |
