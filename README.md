@@ -31,7 +31,7 @@ Let’s make this a December to remember, packed with shader magic! ✨
 | Dec 11  | *TBD*           | *TBD*                    |
 | Dec 12  | *TBD*           | *TBD*                    |
 | Dec 13  | codecontemplator| *TBD*                    |
-| Dec 14  | *TBD*           | *TBD*                    |
+| Dec 14  | byt3m3chanic    | *TBD*                    |
 | Dec 15  | *TBD*           | *TBD*                    |
 | Dec 16  | *TBD*           | *TBD*                    |
 | Dec 17  | *TBD*           | *TBD*                    |
