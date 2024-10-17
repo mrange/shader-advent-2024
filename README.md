@@ -37,7 +37,7 @@ Let’s make this a December to remember, packed with shader magic! ✨
 | Dec 17  | *TBD*           | *TBD*                    |
 | Dec 18  | *TBD*           | *TBD*                    |
 | Dec 19  | *TBD*           | *TBD*                    |
-| Dec 20  | *TBD*           | *TBD*                    |
+| Dec 20  | SuperRogue      | *TBD*                    |
 | Dec 21  | *TBD*           | *TBD*                    |
 | Dec 22  | *TBD*           | *TBD*                    |
 | Dec 23  | *TBD*           | *TBD*                    |
