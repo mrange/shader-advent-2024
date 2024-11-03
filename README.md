@@ -27,14 +27,14 @@ Let’s make this a December to remember, packed with shader magic! ✨
 | Dec 7   | *TBD*           | *TBD*                    |
 | Dec 8   | totetmatt       | *TBD*                    |
 | Dec 9   | *TBD*           | *TBD*                    |
-| Dec 10  | *TBD*           | *TBD*                    |
+| Dec 10  | Magnus T        | Introduction to WGSL     |
 | Dec 11  | *TBD*           | *TBD*                    |
 | Dec 12  | *TBD*           | *TBD*                    |
 | Dec 13  | codecontemplator| *TBD*                    |
 | Dec 14  | byt3m3chanic    | *TBD*                    |
 | Dec 15  | *TBD*           | *TBD*                    |
 | Dec 16  | *TBD*           | *TBD*                    |
-| Dec 17  | *TBD*           | *TBD*                    |
+| Dec 17  | *TBD*           | WebGL to WGSL            |
 | Dec 18  | *TBD*           | *TBD*                    |
 | Dec 19  | *TBD*           | *TBD*                    |
 | Dec 20  | SuperRogue      | *TBD*                    |
