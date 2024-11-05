@@ -20,8 +20,8 @@ Let’s make this a December to remember, packed with shader magic! ✨
 |---------|-----------------|--------------------------|
 | Dec 1   | mrange          | Some tricks I learnt     |
 | Dec 2   | TristanC        | Smooth Midi Modulation   |
-| Dec 3   | Pestis          | Merry shader holiday cards|
-| Dec 4   | *TBD*           | *TBD*                    |
+| Dec 3   | Pestis          |Merry shader holiday cards|
+| Dec 4   | SoundSafari.io  | Equirectangular-textures |
 | Dec 5   | *TBD*           | *TBD*                    |
 | Dec 6   | *TBD*           | *TBD*                    |
 | Dec 7   | *TBD*           | *TBD*                    |
