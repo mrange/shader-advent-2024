@@ -40,6 +40,6 @@ Let’s make this a December to remember, packed with shader magic! ✨
 | Dec 20  | SuperRogue      | *TBD*                    |
 | Dec 21  | *TBD*           | *TBD*                    |
 | Dec 22  | *TBD*           | *TBD*                    |
-| Dec 23  | *TBD*           | *TBD*                    |
+| Dec 23  | Aldroida        | A Shader Fairytale       |
 | Dec 24  | *TBD*           | *TBD*                    |
 | Dec 25  | totetmatt       | *TBD*                    |
