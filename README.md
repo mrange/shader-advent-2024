@@ -25,7 +25,7 @@ Let’s make this a December to remember, packed with shader magic! ✨
 | Dec 5   | *TBD*           | *TBD*                    |
 | Dec 6   | *TBD*           | *TBD*                    |
 | Dec 7   | *TBD*           | *TBD*                    |
-| Dec 8   | totetmatt       | *TBD*                    |
+| Dec 8   | totetmatt       | Demystification of  #つぶやきGLSL|
 | Dec 9   | *TBD*           | *TBD*                    |
 | Dec 10  | Magnus T        | Introduction to WGSL     |
 | Dec 11  | *TBD*           | *TBD*                    |
