@@ -16,24 +16,24 @@ A huge shoutout to everyone who contributed to making this happen—you’ve tru
 | Dec 2   | TristanC                | Smooth Midi Modulation                    |
 | Dec 3   | Pestis                  | Merry shader holiday cards                |
 | Dec 4   | SoundSafari.io          | Equirectangular-textures                  |
-| Dec 5   | *To be announced*       | *To be announced*                         |
-| Dec 5   | *To be announced*       | *To be announced*                         |
-| Dec 5   | *To be announced*       | *To be announced*                         |
-| Dec 8   | totetmatt               | *To be announced*                         |
-| Dec 5   | *To be announced*       | *To be announced*                         |
+| Dec 5   | *To be announced*       | *Waiting to be unwrapped!*                |
+| Dec 5   | *To be announced*       | *Waiting to be unwrapped!*                |
+| Dec 5   | *To be announced*       | *Waiting to be unwrapped!*                |
+| Dec 8   | totetmatt               | *Waiting to be unwrapped!*                |
+| Dec 5   | *To be announced*       | *Waiting to be unwrapped!*                |
 | Dec 10  | Magnus T                | Introduction to WGSL                      |
-| Dec 5   | *To be announced*       | *To be announced*                         |
-| Dec 5   | *To be announced*       | *To be announced*                         |
-| Dec 13  | codecontemplator        | *To be announced*                         |
-| Dec 14  | byt3m3chanic            | *To be announced*                         |
-| Dec 5   | *To be announced*       | *To be announced*                         |
-| Dec 5   | *To be announced*       | *To be announced*                         |
+| Dec 5   | *To be announced*       | *Waiting to be unwrapped!*                |
+| Dec 5   | *To be announced*       | *Waiting to be unwrapped!*                |
+| Dec 13  | codecontemplator        | *Waiting to be unwrapped!*                |
+| Dec 14  | byt3m3chanic            | *Waiting to be unwrapped!*                |
+| Dec 5   | *To be announced*       | *Waiting to be unwrapped!*                |
+| Dec 5   | *To be announced*       | *Waiting to be unwrapped!*                |
 | Dec 17  | Magnus T                | WebGL to WGSL                             |
-| Dec 5   | *To be announced*       | *To be announced*                         |
-| Dec 5   | *To be announced*       | *To be announced*                         |
-| Dec 20  | SuperRogue              | *To be announced*                         |
-| Dec 5   | *To be announced*       | *To be announced*                         |
-| Dec 22  | Teadrinker              | *To be announced*                         |
+| Dec 5   | *To be announced*       | *Waiting to be unwrapped!*                |
+| Dec 5   | *To be announced*       | *Waiting to be unwrapped!*                |
+| Dec 20  | SuperRogue              | *Waiting to be unwrapped!*                |
+| Dec 5   | *To be announced*       | *Waiting to be unwrapped!*                |
+| Dec 22  | Teadrinker              | *Waiting to be unwrapped!*                |
 | Dec 23  | Aldroida                | A Shader Fairytale                        |
-| Dec 5   | *To be announced*       | *To be announced*                         |
-| Dec 25  | totetmatt               | *To be announced*                         |
+| Dec 5   | *To be announced*       | *Waiting to be unwrapped!*                |
+| Dec 25  | totetmatt               | *Waiting to be unwrapped!*                |
