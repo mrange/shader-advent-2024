@@ -2,11 +2,11 @@
 
 🎅Ho, ho, ho! Merry Christmas!🎅
 
-After following and even pitching in on the 🎄[F# Advent Calendar](https://sergeytihon.com/fsadvent/)🎄, I thought: why not bring a little shader magic to December? So, welcome to the Shader Advent Calendar, where each day (hopefully) brings a fresh shader gem 🎁 to tinker with or be inspired by.
+After following and even pitching in on the 🎄[F# Advent Calendar](https://sergeytihon.com/fsadvent/)🎄, I thought: why not bring a little shader magic to December? So, welcome to the [Shader Advent Calendar 2024](../README.md), where each day (hopefully) brings a fresh shader gem 🎁 to tinker with or be inspired by.
 
 I realize that creating something out of nothing is challenging, and realistically, we may not fill every day in December. To pad the schedule, you might see a few extra posts from me, but I’d happily give up a slot to anyone who wants to contribute.
 
-Anyway, I thought I’d kick off the Shader Advent Calendar by sharing a few tricks and tips I’ve picked up while tinkering with shaders.
+Anyway, I thought I’d kick off the [Shader Advent Calendar](../README.md) by sharing a few tricks and tips I’ve picked up while tinkering with shaders.
 
 ## 🎁Tip #1: Don't Be Afraid to Share What You've Created🎁
 
