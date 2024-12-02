@@ -32,7 +32,7 @@ A huge shoutout to everyone who contributed to making this happen—you’ve tru
 | Dec 18  | *To be announced*       | 🎀 *Waiting to be unwrapped!* 🎀         |
 | Dec 19  | *To be announced*       | 🎁 *Waiting to be unwrapped!* 🎁         |
 | Dec 20  | SuperRogue              | 🎀 *Waiting to be unwrapped!* 🎀         |
-| Dec 21  | Magnus Thor             | 🎁 *Waiting to be unwrapped!* 🎁         |
+| Dec 21  | Magnus T                | 🎁 *Waiting to be unwrapped!* 🎁         |
 | Dec 22  | Teadrinker              | 🎀 *Waiting to be unwrapped!* 🎀         |
 | Dec 23  | Aldroida                | A Shader Fairytale                        |
 | Dec 24  | *To be announced*       | 🎀 *Waiting to be unwrapped!* 🎀         |
