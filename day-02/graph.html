@@ -1,0 +1,112 @@
+<!--
+SPDX-License-Identifier: GPL-3.0-or-later
+The code used for the image in the SmoothMidiModulation
+-->
+<!DOCTYPE html>
+<html>
+  <head>
+    <script
+      src="https://cdn.jsdelivr.net/npm/uplot@1.6.31/dist/uPlot.iife.min.js"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/uplot@1.6.31/dist/uPlot.min.css"
+    />
+  </head>
+  <body>
+    <script>
+      const smooth = (speed) => (desired) => (value, elapsed) =>
+        value + ((desired - value) / Math.max(1, 60 * speed * elapsed));
+      const pi = Math.PI;
+
+      const so = ({ f, z, r }) => {
+        // constant
+        let k1 = z / (pi * f);
+        let k2 = 1 / ((2 * pi * f) * (2 * pi * f));
+        let k3 = r * z / (2 * pi * f);
+
+        // initial state
+        let xp = 0;
+        let y = 0;
+        let yd = 0;
+
+        return (desired) => {
+          let x = desired;
+          return (value, elapsed) => {
+            let t = elapsed;
+
+            // estimate velocity
+            let xd = (x - xp) / t;
+            xp = x;
+
+            // clamp k2 to guarantee stability
+            let k2_stable = Math.max(k2, t * t / 2 + t * k1 / 2, t * k1);
+
+            // integrate velocity by acceleration
+            yd = yd + t * (x + k3 * xd - y - k1 * yd) / k2_stable;
+
+            // integrate position by velocity
+            y = y + t * yd;
+
+            return y;
+          };
+        };
+      };
+
+      const l = 60 * 3;
+      const raw = new Float32Array(l).fill().map((_, i) =>
+        (i > 80 && i < 150) || (i > 5 && i < 60) ? 1 : 0
+      );
+      const mods = [];
+      const series = [];
+
+      const incr = true;
+      const render = (label, stroke, func) => {
+        series.push({ stroke, label: incr ? "I" + label : label });
+        const mod = new Float32Array(l).fill(0);
+        mods.push(mod);
+        let f = smooth(0);
+        let last = null;
+        let tot = 0;
+        mod.forEach((_, i) => {
+          if (last != raw[i]) {
+            last = raw[i];
+            tot += last;
+            f = func(incr ? tot : raw[i]);
+          }
+          if (i > 0) {
+            const cur = mod[i - 1];
+            mod[i] = f(cur, 1 / 60);
+          }
+        });
+      };
+
+      render("Smooth 10", "red", smooth(10));
+      render("Smooth 20", "#c27", smooth(20));
+      render("SO z.5 r2", "green", so({ f: 1, z: 0.5, r: 2.0 }));
+      render("SO z1  r3", "purple", so({ f: 1, z: 1, r: 3 }));
+
+      const data = [
+        new Float32Array(l).fill().map((_, i) => i),
+        raw,
+        ...mods,
+      ];
+      const opts = {
+        title: "Midi Modulation",
+        id: "chart1",
+        class: "my-chart",
+        width: 800,
+        height: 500,
+        series: [
+          { label: "Frame" },
+          { stroke: "blue", label: "Raw" },
+          ...series,
+        ],
+        axes: [{ values: (_) => "" }],
+        scales: { x: { time: false } },
+      };
+
+      let uplot = new uPlot(opts, data, document.body);
+    </script>
+  </body>
+</html>

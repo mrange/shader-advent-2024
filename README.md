@@ -13,7 +13,7 @@ A huge shoutout to everyone who contributed to making this happen—you’ve tru
 | Date    | Author                  | Blog Title                                |
 |---------|-------------------------|-------------------------------------------|
 | Dec 1   | mrange                  | [Welcome to Shader Advent Calendar 2024](day-01/README.md)|
-| Dec 2   | TristanC                | Smooth Midi Modulation                    |
+| Dec 2   | TristanC                | [Smooth Midi Modulation](day-02/SmoothMidiModulation.md)                    |
 | Dec 3   | Pestis                  | Merry shader holiday cards                |
 | Dec 4   | SoundSafari.io          | Equirectangular-textures                  |
 | Dec 5   | *To be announced*       | 🎁 *Waiting to be unwrapped!* 🎁         |
