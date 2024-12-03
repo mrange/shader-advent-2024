@@ -31,7 +31,7 @@ A huge shoutout to everyone who contributed to making this happen—you’ve tru
 | Dec 17  | Magnus T                | WebGL to WGSL                             |
 | Dec 18  | *To be announced*       | 🎀 *Waiting to be unwrapped!* 🎀         |
 | Dec 19  | *To be announced*       | 🎁 *Waiting to be unwrapped!* 🎁         |
-| Dec 20  | SuperRogue              | 🎀 *Waiting to be unwrapped!* 🎀         |
+| Dec 20  | Superogue               | 🎀 *Waiting to be unwrapped!* 🎀         |
 | Dec 21  | Magnus T                | 🎁 *Waiting to be unwrapped!* 🎁         |
 | Dec 22  | Teadrinker              | 🎀 *Waiting to be unwrapped!* 🎀         |
 | Dec 23  | Aldroida                | A Shader Fairytale                        |
