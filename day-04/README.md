@@ -69,7 +69,7 @@ Predictably if we now try and use the flatmode version for a sphere texture, it 
 
 
 ### 🎤 Showcase Cont...
-In addition to the shader above, here's some of my other favorite skybox shader creations I made in 2024. They're all CC0-1.0 so you're welcome to use and abuse em :)
+In addition to the shader above, here's some other skybox shader creations I made in 2024. They're all CC0-1.0 (public domain) so consider it my Holiday gift for you ❄️!
 
 #### [Marble](https://www.shadertoy.com/view/43G3Wy)
 ![](./images/marble.gif)
@@ -91,14 +91,27 @@ In addition to the shader above, here's some of my other favorite skybox shader 
 ![](./images/gridsdf.gif)
 ![](./images/gridsdf-orb.gif)
 
-#### []()
+#### [Perlin](https://www.shadertoy.com/view/M3y3zK)
+![](./images/perlin.gif)
+![](./images/perlin-orb.gif)
 
-#### []()
 
+### 🐞 A Debug Tool - From Me To You
+I discovered this equirectangular trick this past year and it's been a god-send, I hope you enjoy it as much as I have!
+
+I have yet to find anywhere faster and easier to create shaders with than [shadertoy.com](https://shadertoy.com). So I wrote a browser plugin which very easily let's you preview your equirectangular shaders on spheres via a small popup modal. I call it shaderballs and the code is open-source ([🔗 Repo Link](https://github.com/SoundSafari/ShaderBalls))
+
+- Chromium Link [Here](https://chromewebstore.google.com/detail/shaderballs/ljijeelhhhnliklnedkaikkhemfjofpf?hl=en)
+- Firefox Link [Here](https://addons.mozilla.org/en-US/firefox/addon/shaderballs/).
 
 ### 🎁 Extras
 - [This video](https://www.youtube.com/watch?v=dkyvZo68IoM) by Richard Behiel has one of my favorite visualizations for 3-Spheres in the context of Hopf Fibrations. It's not an exact demo of the magic we're doing here but still one of my favorites.
 - Artifacts around the sphere's poles occur because of how computers handle math, there's a more advanced algorithm called [HEALPix](https://en.wikipedia.org/wiki/HEALPix) that's it's own rabbit hole.
 - Shoutouts to Martin Range for coordinating this event and his awesome CC0-1.0 licensed shaders. Without his work I'd be very unlikely to be here writing this today.
 
+
 Happy Holidays ☕️
+
+🐾 - Llama D'Attore 
+
+~ My [twitter](https://x.com/SoundSafari_io) & my [3D Music Visualizer](https://SoundSafari.io) I've been working on since ~2016.
