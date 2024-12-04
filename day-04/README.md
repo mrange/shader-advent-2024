@@ -58,10 +58,12 @@ By default it renders an equirectangular view of a mandelbulb raymarch:
 
 Now if we view that shader textured on a sphere:
 ![](./images/bulby-orb.gif)
+
 👆 You can see the shader perfectly textures onto the orb with no seams! And if we go inside it becomes a perfect skybox of our trippy raymarch.
 
 Just for example if we set `flatmode=true` in the shader code and recompile it looks like:
 ![](./images/flat-bulby.gif)
+
 👆 We skip the UV=>3D-Pos conversion and now the shader renders only a subset of the 3D raymarch.
 
 Predictably if we now try and use the flatmode version for a sphere texture, it is very wonky.
