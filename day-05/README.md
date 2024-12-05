@@ -4,7 +4,7 @@
 
 ## 🎄 2D Shaders are Cool Too! 🎄
 
-<p align="center">
+<p align="left">
   <img src="assets/csharp-logo.jpg" alt="C# Logo as a ShaderToy" style="width: 50%;" />
 </p>
 
