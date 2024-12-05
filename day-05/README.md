@@ -6,6 +6,8 @@
 
 <p align="center">
   <img src="assets/csharp-logo.jpg" alt="C# Logo as a ShaderToy" style="width: 50%;" />
+</p>
+<p align="center">
 [C# Logo as a ShaderToy](https://www.shadertoy.com/view/mtjSDD)
 </p>
 
