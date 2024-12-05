@@ -7,6 +7,7 @@
 <p align="center">
   <img src="assets/csharp-logo.jpg" alt="C# Logo as a ShaderToy" style="width: 50%;" />
 </p>
+
 [C# Logo as a ShaderToy](https://www.shadertoy.com/view/mtjSDD)
 
 Most examples on ShaderToy use ray marching in 3D, but creating cool shaders in 2D is just as fun! Working in 2D allows us to easily visualize distance fields—a common pattern in shader coding—and we can apply what we learn in 2D to 3D.
