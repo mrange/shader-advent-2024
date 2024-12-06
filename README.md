@@ -17,7 +17,7 @@ A huge shoutout to everyone who contributed to making this happen—you’ve tru
 | Dec 3   | Pestis                  | [Merry shader holiday cards](day-03/README.md)|
 | Dec 4   | SoundSafari.io          | [Equirectangular Shaders](day-04/README.md)|
 | Dec 5   | mrange                  | [Introduction to 2D Shaders](day-05/README.md)|
-| Dec 6   | *To be announced*       | 🎀 *Waiting to be unwrapped!* 🎀         |
+| Dec 6   | mrange                  | [Festive Truchet Tiling to You All](day-06/README.md)|
 | Dec 7   | *To be announced*       | 🎁 *Waiting to be unwrapped!* 🎁         |
 | Dec 8   | totetmatt               | 🎀 *Waiting to be unwrapped!* 🎀         |
 | Dec 9   | *To be announced*       | 🎁 *Waiting to be unwrapped!* 🎁         |
