@@ -32,6 +32,8 @@ vec3 rayDirection = normalize(vec3(p, 1.0));
 
 Here's the [complete example](https://www.shadertoy.com/view/Mf3BWf):
 
+![Just a sky](assets/just-a-sky.jpg)
+
 ```glsl
 void mainImage( out vec4 fragColor, in vec2 fragCoord ) {
     // STEP 1: Screen coordinate normalization
@@ -70,8 +72,6 @@ void mainImage( out vec4 fragColor, in vec2 fragCoord ) {
 }
 ```
 
-![Just a sky](assets/just-a-sky.jpg)
-
 ## ✂️ Learning to Copy and Paste from IQ's Site 📋
 
 Now, let’s take a big step forward and define a **distance field** for the object we want to ray trace. There are plenty of ways to do this, but why not borrow the brilliant `sdBox` function from [IQ’s amazing collection of distance field functions](https://iquilezles.org/articles/distfunctions/)? After all, sharing is caring!
@@ -94,6 +94,8 @@ So, how does this distance field function work? Essentially, for any given point
 With this distance field in hand, we can finally create our ray marcher! The process is pretty straightforward: we start at the ray origin and use our distance field function to check the distance to the object. If we’re “close enough” to hit the object, we stop. If we’ve iterated too many times or traveled beyond a set maximum distance, we stop there as well. Otherwise, we continue moving in the ray direction based on the distance we calculated, repeating this process until we find our target!
 
 Here is the [full example](https://www.shadertoy.com/view/lccBWf):
+
+![A cube cosplaying as a white square](assets/a-white-square.jpg)
 
 ```glsl
 // Maximum distance a ray can travel before we consider it a "miss"
@@ -185,8 +187,6 @@ void mainImage(out vec4 fragColor, in vec2 fragCoord) {
 }
 ```
 
-![A cube cosplaying as a white square](assets/a-white-square.jpg)
-
 ## 🧊 Computers Are Made for Rotating Cubes 🧊
 
 Right now, all we see is a white square against a sky-blue background, but trust me—this is supposed to be a 3D box! To make our box stand out as a true cube, we need to rotate it a bit.
@@ -272,6 +272,8 @@ col += 0.05;
 With these additions, our cube will not only rotate but also have a lovely shaded effect that makes it look more three-dimensional. Let’s bring our cube to life!
 
 The [complete example](https://www.shadertoy.com/view/lf3BWf):
+
+![Yes! A rotating cube!](assets/yes-a-rotating-cube.jpg)
 
 ```glsl
 // Maximum ray travel distance before considering it a "miss"
@@ -390,8 +392,6 @@ void mainImage(out vec4 fragColor, in vec2 fragCoord) {
 }
 ```
 
-![Yes! A rotating cube!](assets/yes-a-rotating-cube.jpg)
-
 ## 🧊🌐 Making Complex Shapes from Simple Ones 🌐🧊
 
 Awesome! We’ve got a basic rotating cube with some nifty shading. But wait—what’s even cooler is that we can create complex shapes by combining simple distance fields!
@@ -494,6 +494,8 @@ if (rayLightDistance >= MaxDistance) {
 ```
 
 With this code, our scene will now have some lovely shadows, adding depth and realism to our rotating cube. Shadows can make a huge difference in how we perceive shapes, and now our cube is looking even [more dynamic](https://www.shadertoy.com/view/Mc3BWf)!
+
+![Throwing down some shade](assets/throwing-shade.jpg)
 
 ```glsl
 // Maximum ray travel distance before considering it a "miss"
@@ -630,8 +632,6 @@ void mainImage(out vec4 fragColor, in vec2 fragCoord) {
     fragColor = vec4(col, 1.0);
 }
 ```
-
-![Throwing down some shade](assets/throwing-shade.jpg)
 
 ## 🎁 Wrapping Up! 🎁
 
