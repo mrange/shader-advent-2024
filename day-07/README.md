@@ -30,7 +30,7 @@ To trace a ray through our scene, we need two things: a **ray origin** and a **r
 vec3 rayDirection = normalize(vec3(p, 1.0));
 ```
 
-Here's the complete example:
+Here's the [complete example](https://www.shadertoy.com/view/Mf3BWf):
 
 ```glsl
 void mainImage( out vec4 fragColor, in vec2 fragCoord ) {
@@ -93,7 +93,7 @@ So, how does this distance field function work? Essentially, for any given point
 
 With this distance field in hand, we can finally create our ray marcher! The process is pretty straightforward: we start at the ray origin and use our distance field function to check the distance to the object. If we’re “close enough” to hit the object, we stop. If we’ve iterated too many times or traveled beyond a set maximum distance, we stop there as well. Otherwise, we continue moving in the ray direction based on the distance we calculated, repeating this process until we find our target!
 
-Here is the full example:
+Here is the [full example](https://www.shadertoy.com/view/lccBWf):
 
 ```glsl
 // Maximum distance a ray can travel before we consider it a "miss"
@@ -271,7 +271,7 @@ col += 0.05;
 
 With these additions, our cube will not only rotate but also have a lovely shaded effect that makes it look more three-dimensional. Let’s bring our cube to life!
 
-The complete example:
+The [complete example](https://www.shadertoy.com/view/lf3BWf):
 
 ```glsl
 // Maximum ray travel distance before considering it a "miss"
@@ -493,7 +493,7 @@ if (rayLightDistance >= MaxDistance) {
 // If ray hits something, point is in shadow (only ambient light remains)
 ```
 
-With this code, our scene will now have some lovely shadows, adding depth and realism to our rotating cube. Shadows can make a huge difference in how we perceive shapes, and now our cube is looking even more dynamic!
+With this code, our scene will now have some lovely shadows, adding depth and realism to our rotating cube. Shadows can make a huge difference in how we perceive shapes, and now our cube is looking even [more dynamic](https://www.shadertoy.com/view/Mc3BWf)!
 
 ```glsl
 // Maximum ray travel distance before considering it a "miss"
