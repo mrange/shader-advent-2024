@@ -19,7 +19,7 @@ A huge shoutout to everyone who contributed to making this happen—you’ve tru
 | Dec 5   | mrange                  | [Introduction to 2D Shaders](day-05/README.md)|
 | Dec 6   | mrange                  | [Festive Truchet Tiling to You All](day-06/README.md)|
 | Dec 7   | mrange                  | [Introduction to Ray Marching](day-07/README.md)|
-| Dec 8   | totetmatt               | 🎀 *Waiting to be unwrapped!* 🎀         |
+| Dec 8   | totetmatt               | Demystification of  #つぶやきGLSL|
 | Dec 9   | *To be announced*       | 🎁 *Waiting to be unwrapped!* 🎁         |
 | Dec 10  | Magnus T                | Introduction to WGSL                      |
 | Dec 11  | *To be announced*       | 🎁 *Waiting to be unwrapped!* 🎁         |
