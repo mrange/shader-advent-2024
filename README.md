@@ -20,7 +20,7 @@ A huge shoutout to everyone who contributed to making this happen—you’ve tru
 | Dec 6   | mrange                  | [Festive Truchet Tiling to You All](day-06/README.md)|
 | Dec 7   | mrange                  | [Introduction to Ray Marching](day-07/README.md)|
 | Dec 8   | totetmatt               | [Demystification of  #つぶやきGLSL](day-08/README.md)|
-| Dec 9   | *To be announced*       | 🎁 *Waiting to be unwrapped!* 🎁         |
+| Dec 9   | mrange                  | [Vertex Shaders in KodeLife](day-09/README.md)|
 | Dec 10  | Magnus T                | Introduction to WGSL                      |
 | Dec 11  | *To be announced*       | 🎁 *Waiting to be unwrapped!* 🎁         |
 | Dec 12  | *To be announced*       | 🎀 *Waiting to be unwrapped!* 🎀         |
