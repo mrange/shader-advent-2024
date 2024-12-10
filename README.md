@@ -21,18 +21,18 @@ A huge shoutout to everyone who contributed to making this happen—you’ve tru
 | Dec 7   | mrange                  | [Introduction to Ray Marching](day-07/README.md)|
 | Dec 8   | totetmatt               | [Demystification of  #つぶやきGLSL](day-08/README.md)|
 | Dec 9   | mrange                  | [Vertex Shaders in KodeLife](day-09/README.md)|
-| Dec 10  | Magnus T                | Introduction to WGSL                      |
+| Dec 10  | Magnus Thor             | [Getting Started with WebGPU and WGSL](day-10/README.md)|
 | Dec 11  | *To be announced*       | 🎁 *Waiting to be unwrapped!* 🎁         |
 | Dec 12  | *To be announced*       | 🎀 *Waiting to be unwrapped!* 🎀         |
 | Dec 13  | codecontemplator        | 🎁 *Waiting to be unwrapped!* 🎁         |
 | Dec 14  | byt3m3chanic            | 🎀 *Waiting to be unwrapped!* 🎀         |
 | Dec 15  | *To be announced*       | 🎁 *Waiting to be unwrapped!* 🎁         |
 | Dec 16  | *To be announced*       | 🎀 *Waiting to be unwrapped!* 🎀         |
-| Dec 17  | Magnus T                | WebGL to WGSL                             |
+| Dec 17  | Magnus Thor             | WebGL to WGSL                             |
 | Dec 18  | *To be announced*       | 🎀 *Waiting to be unwrapped!* 🎀         |
 | Dec 19  | *To be announced*       | 🎁 *Waiting to be unwrapped!* 🎁         |
 | Dec 20  | Superogue               | 🎀 *Waiting to be unwrapped!* 🎀         |
-| Dec 21  | Magnus T                | 🎁 *Waiting to be unwrapped!* 🎁         |
+| Dec 21  | Magnus Thor             | 🎁 *Waiting to be unwrapped!* 🎁         |
 | Dec 22  | Teadrinker              | 🎀 *Waiting to be unwrapped!* 🎀         |
 | Dec 23  | Aldroida                | A Shader Fairytale                        |
 | Dec 24  | *To be announced*       | 🎀 *Waiting to be unwrapped!* 🎀         |
