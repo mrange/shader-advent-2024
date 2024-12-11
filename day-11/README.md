@@ -261,8 +261,32 @@ Putting it all together, our final code should look something like this:
 
 ![Our simple effect running in Windows Terminal](assets/simple-effect.jpg)
 
-You can find the full code [here](sixel-app/Program.cs), and it's also included below for convenience:
+You can find the full code [here](sixel-app/Program.cs) or at the bottom of this blog post.
 
+## 🎉🎁🎉 That’s a Wrap! 🎉🎁🎉
+
+I hope this simple example sparks some ideas for your own sixel-based creations! Imagine coding up demos that run right in the terminal, or even porting TIC-80 to sixel graphics—how cool would that be? Or maybe it’s time for a new GUI toolkit that renders menus and buttons as sixels.
+
+The potential for quirky, mind-bending terminal art is endless!
+
+So go ahead and see what wild and wonderful things you can create with sixels!
+
+🎄🌟🎄 Merry Christmas to all, and happy coding! 🎄🌟🎄
+
+🎅 – mrange
+
+
+## ❄️Licensing Information❄️
+
+All code content I created for this blog post, including the linked KodeLife sample code, is licensed under [CC0](https://creativecommons.org/public-domain/cc0/) (effectively public domain). Any code snippets from other developers retain their original licenses.
+
+The text content of this blog is licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) (the same license as Stack Overflow).
+
+Additionally, the Sixel image of "Across The Void II" by "Made/Bomb" is a derivative [of the original image](https://demozoo.org/graphics/342269/), and "Made/Bomb" holds the copyright for it.
+
+## Appendix
+
+### Full source code
 ```csharp
 // First check if the terminal supports Sixel graphics
 //  On Windows you can use Windows Terminal 1.22.2912.0+ (at the time of writing in preview)
@@ -538,25 +562,3 @@ static class Extensions
     }
 }
 ```
-
-## 🎉🎁🎉 That’s a Wrap! 🎉🎁🎉
-
-I hope this simple example sparks some ideas for your own sixel-based creations! Imagine coding up demos that run right in the terminal, or even porting TIC-80 to sixel graphics—how cool would that be? Or maybe it’s time for a new GUI toolkit that renders menus and buttons as sixels.
-
-The potential for quirky, mind-bending terminal art is endless!
-
-So go ahead and see what wild and wonderful things you can create with sixels!
-
-🎄🌟🎄 Merry Christmas to all, and happy coding! 🎄🌟🎄
-
-🎅 – mrange
-
-
-## ❄️Licensing Information❄️
-
-All code content I created for this blog post, including the linked KodeLife sample code, is licensed under [CC0](https://creativecommons.org/public-domain/cc0/) (effectively public domain). Any code snippets from other developers retain their original licenses.
-
-The text content of this blog is licensed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) (the same license as Stack Overflow).
-
-Additionally, the Sixel image of "Across The Void II" by "Made/Bomb" is a derivative [of the original image](https://demozoo.org/graphics/342269/), and "Made/Bomb" holds the copyright for it.
-
