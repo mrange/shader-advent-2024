@@ -22,6 +22,8 @@ But as a hacker, you want to go deeper, right? By coding it yourself, you gain t
   <img src="assets/webgl-canvas.jpg" alt="A WebGL Canvas" style="width: 50%;" />
 </p>
 
+[The complete example](https://mrange.github.io/shader-advent-2024/day-12/full-example/)
+
 Let’s start with a `canvas` element:
 
 ```html
@@ -330,6 +332,8 @@ Finding `requestAnimationFrame` was a game-changer! It ensures that our animatio
 <p align="center">
   <img src="assets/webgl-canvas.jpg" alt="A WebGL Canvas" style="width: 50%;" />
 </p>
+
+[The complete example](https://mrange.github.io/shader-advent-2024/day-12/full-example/)
 
 With this you should be able to render your own fragment shaders in WebGL! While it can feel a bit daunting at first, that’s all part of the fun. To help you on your journey, I’ve created [this complete example](src/index.html) for you.
 
