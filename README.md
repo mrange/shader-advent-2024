@@ -28,7 +28,7 @@ A huge shoutout to everyone who contributed to making this happen—you’ve tru
 | Dec 14  | byt3m3chanic            | 🎀 *Waiting to be unwrapped!* 🎀         |
 | Dec 15  | *To be announced*       | 🎁 *Waiting to be unwrapped!* 🎁         |
 | Dec 16  | *To be announced*       | 🎀 *Waiting to be unwrapped!* 🎀         |
-| Dec 17  | Magnus Thor             | WebGL to WGSL                             |
+| Dec 17  | Magnus Thor             | GLSL to WGSL                              |
 | Dec 18  | *To be announced*       | 🎀 *Waiting to be unwrapped!* 🎀         |
 | Dec 19  | *To be announced*       | 🎁 *Waiting to be unwrapped!* 🎁         |
 | Dec 20  | Superogue               | 🎀 *Waiting to be unwrapped!* 🎀         |
