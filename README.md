@@ -25,7 +25,7 @@ A huge shoutout to everyone who contributed to making this happen—you’ve tru
 | Dec 11  | mrange                  | [Sixel Graphics in Windows Terminal and Beyond](day-11/README.md)|
 | Dec 12  | mrange                  | [Rendering Shaders in WebGL](day-12/README.md)|
 | Dec 13  | codecontemplator        | [Circles of light](day-13/README.md)|
-| Dec 14  | byt3m3chanic            | 🎀 *Waiting to be unwrapped!* 🎀         |
+| Dec 14  | byt3m3chanic            | [Timing with LERP](day-14/README.md)|
 | Dec 15  | *To be announced*       | 🎁 *Waiting to be unwrapped!* 🎁         |
 | Dec 16  | *To be announced*       | 🎀 *Waiting to be unwrapped!* 🎀         |
 | Dec 17  | Magnus Thor             | GLSL to WGSL                              |
