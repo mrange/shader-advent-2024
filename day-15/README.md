@@ -9,7 +9,7 @@ I know, I know. Normally, this Shader Advent is all about shaders. But here’s 
 	<img src="assets/bounce.gif" alt="A bouncing robot in TIC-80" style="width: 50%;" />
 </p>
 
-If you’re like me, shader coding scratch that demo itch—pushing pixels to make art and effects. But shader coding can be intense: you’re aiming for perfection, and that takes time. TIC-80, though? It’s like an instant ticket to retro joy. You can whip up a wild, "craptastic" effect in no time and still feel like a kid in a candy store.
+If you’re like me, shader coding scratch that demo itch—pushing pixels to make cool effects. But shader coding can be intense: you’re aiming for perfection, and that takes time. TIC-80, though? It’s like an instant ticket to retro joy. You can whip up a wild, "craptastic" effect in no time.
 
 Everything’s built-in: a text editor, sprite editor, map editor, SFX editor, and even a tracker for music. The quirky limitations—lower resolutions, color restrictions—bring back memories of the C64.
 
@@ -19,11 +19,11 @@ For those new to TIC-80, it’s a "fantasy console" that channels the essence of
 
 Getting started is simple. Just head over to [the TIC-80 site](https://tic80.com/create), where you can run it right in your browser or download it to your desktop. Check out some of the amazing demos, like [TIMELINE 2](https://tic80.com/play?cart=3823), where you can jump straight into the code by pressing `Escape`.
 
-And hey, if you're craving a different flavor, PICO-8 is another awesome fantasy console worth checking out.
+If you're craving a different flavor, [PICO-8](https://www.lexaloffle.com/pico-8.php) is another awesome fantasy console worth checking out.
 
 ## 🧭🗺️ Orienting Ourselves in TIC-80 🗺️🧭
 
-When you open TIC-80, you’re greeted by the console—a retro throwback right from the start. To get around, use the function keys to access each of TIC-80’s editors:
+When you open TIC-80, you’re greeted by the console. To get around, use the function keys to access each of TIC-80’s editors:
 
 - **F1** - Code Editor
 - **F2** - Sprite Editor
@@ -52,7 +52,7 @@ With Dev Mode active, you can quickly hop back to the code editor/console whenev
 	<img src="assets/helloworld.png" alt="Hello World app in TIC-80" style="width: 50%;" />
 </p>
 
-Time for our first program! Whenever you start TIC-80 or enter the command `new lua` in the console, a basic "Hello, World" program is automatically created, complete with some starter code and sprites.
+Whenever you start TIC-80 or enter the command `new lua` in the console, a basic "Hello, World" program is automatically created, complete with some starter code and sprites.
 ```lua
 t=0
 x=96
@@ -72,11 +72,11 @@ function TIC()
 end
 ```
 
-This simple program lets you control a character with the arrow keys. Hit `F1` to see the code or hit `F2` to jump into the Sprite Editor, where you can tweak the sprites to your heart’s content.
+This simple program lets you control a character with the arrow keys. Hit `F1` to see the code or hit `F2` to jump into the Sprite Editor, where you can tweak the sprites.
 
-The code itself is in `Lua`, a light but powerful language that’s a joy to code in. Don’t worry if it’s new to you—this program is straightforward, and you’ll get the hang of it quickly.
+The code itself is in `Lua`, a light but powerful language that’s a joy to code in. Don’t worry if it’s new to you, you’ll get the hang of it quickly.
 
-In TIC-80, there’s a main function called `TIC` that runs every frame (that’s 60 times per second), so this is where most of the magic happens.
+In TIC-80, there’s a main function called `TIC` that runs every frame (that’s 60 times per second), so this is where most of the action happens.
 
 ### 🦾🤖🦿 Drawing a Big Robot 🦾🤖🦿
 
@@ -164,7 +164,7 @@ Simple!
 
 `BDR` is one of TIC-80’s coolest features—a function called once per horizontal line. It’s a nod to raster interrupts from the days of the C64 and other vintage computers. Back then, the limited color palette meant you had to get creative. Old TVs would render each line from top to bottom, allowing coders to change the color palette on the fly after each line was drawn, creating the illusion of more colors than the system officially supported.
 
-In TIC-80, we get to relive that magic! Although it only offers 16 colors at a time, you can switch colors (and tweak other settings) between lines, simulating more colors on the screen. It’s a clever workaround that lets us push past TIC-80’s color limits—just like in the golden age of computing.
+In TIC-80, we get to relive those golden days! Although it only offers 16 colors at a time, you can switch colors (and tweak other settings) between lines, simulating more colors on the screen. It’s a clever workaround that lets us push past TIC-80’s color limits—just like in the golden age of computing.
 
 And in true retro style, we use the command [`poke`](https://github.com/nesbox/TIC-80/wiki/poke) to write values directly into memory, just like hardware registers on classic machines. With `poke`, you can tweak TIC-80’s "hardware" settings and make your effects even more impressive.
 
