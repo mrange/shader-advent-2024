@@ -27,7 +27,7 @@ A huge shoutout to everyone who contributed to making this happen—you’ve tru
 | Dec 13  | codecontemplator        | [Circles of light](day-13/README.md)|
 | Dec 14  | byt3m3chanic            | [Timing with LERP](day-14/README.md)|
 | Dec 15  | mrange                  | [Treat Yourself to a TIC-80 This Christmas](day-15/README.md)|
-| Dec 16  | *To be announced*       | 🎀 *Waiting to be unwrapped!* 🎀         |
+| Dec 16  | mrange                  | [Faking Wave Function Collapse in Shaders](day-16/README.md)|
 | Dec 17  | Magnus Thor             | GLSL to WGSL                   |
 | Dec 18  | *To be announced*       | 🎀 *Waiting to be unwrapped!* 🎀         |
 | Dec 19  | *To be announced*       | 🎁 *Waiting to be unwrapped!* 🎁         |
