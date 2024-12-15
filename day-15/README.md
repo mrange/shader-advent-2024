@@ -9,6 +9,8 @@ I know, I know. Normally, this Shader Advent is all about shaders. But here’s 
 	<img src="assets/bounce.gif" alt="A bouncing robot in TIC-80" style="width: 50%;" />
 </p>
 
+[See it live](https://mrange.github.io/shader-advent-2024/day-15/full-example/)
+
 If you’re like me, shader coding scratch that demo itch—pushing pixels to make cool effects. But shader coding can be intense: you’re aiming for perfection, and that takes time. TIC-80, though? It’s like an instant ticket to retro joy. You can whip up a wild, "craptastic" effect in no time.
 
 Everything’s built-in: a text editor, sprite editor, map editor, SFX editor, and even a tracker for music. The quirky limitations—lower resolutions, color restrictions—bring back memories of the C64.
@@ -478,6 +480,8 @@ end
 <p align="center">
 	<img src="assets/bounce.gif" alt="A bouncing robot in TIC-80" style="width: 50%;" />
 </p>
+
+[See it live](https://mrange.github.io/shader-advent-2024/day-15/full-example/)
 
 TIC-80 is truly incredible! It’s a blast to tinker with retro effects, and getting started couldn’t be easier. You can [run it directly in the browser](https://tic80.com/create) or download it to run it offline. The TIC-80 website is packed with tons of examples, and it includes everything you need to create your own retro demos or games.
 
