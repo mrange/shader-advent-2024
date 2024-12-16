@@ -240,7 +240,7 @@ If done correctly, the result will look something like this:
 
 ## 🛠️ Things to Tinker With 🛠️
 
-I’ve uploaded [the entire shader on ShaderToy](https://www.shadertoy.com/view/XfcyWH) for you to explore.
+I’ve uploaded [the entire shader on ShaderToy](https://www.shadertoy.com/view/XfcyWH) for you to explore. You can also find the complete example at the bottom of this blog.
 
 To make it easier to deconstruct the shader, I’ve included a few defines that allow you to control its functionality:
 
