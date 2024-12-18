@@ -29,7 +29,7 @@ A huge shoutout to everyone who contributed to making this happen—you’ve tru
 | Dec 15  | mrange                  | [Treat Yourself to a TIC-80 This Christmas](day-15/README.md)|
 | Dec 16  | mrange                  | [Faking Wave Function Collapse in Shaders](day-16/README.md)|
 | Dec 17  | Magnus Thor             | [GLSL to WGSL](day-17/README.md)|
-| Dec 18  | *To be announced*       | 🎀 *Waiting to be unwrapped!* 🎀         |
+| Dec 18  | mrange                  | [Rendering Shaders in a Windows App](day-18/README.md)|
 | Dec 19  | *To be announced*       | 🎁 *Waiting to be unwrapped!* 🎁         |
 | Dec 20  | Superogue               | 🎀 *Waiting to be unwrapped!* 🎀         |
 | Dec 21  | Magnus Thor             | 🎁 *Waiting to be unwrapped!* 🎁         |
