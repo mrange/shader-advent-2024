@@ -1,0 +1,163 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+<meta charset="utf-8" /> 
+<title>superogue's microblog</title> 
+<!-- styles -->
+<link href="style.css" rel="stylesheet" type="text/css" />
+<link href="mqicon.png" rel="icon" type="image/jpg" />
+</head> 
+<body> 
+<div id="container"> 
+
+<header role="banner"> 
+<h1>Shader Advent 2024: Micro Shaders</h1> 
+</header> 
+
+<article> 
+<div class="postmeta"> <time datetime="">December 20th, 2024</time></div> 
+</header> 
+<!-- content -->    
+
+<p class="topic">Introduction:</p>
+<p>
+This article is about writing micro shaders. Small pieces of minimal shadercode that can be used for 
+either smaller intro sizes (like 4k, 1k, 512 or even 256 byte intros), or for a livecoding setting where you
+are able to setup your code quickly and build out from there, so that both yourself and the audience
+are comfortable with the progression.
+</p>
+<p>
+These setup codes and shortcuts are useful because of their size as well as they are easy to remember by heart
+when used in a livecoding setting. This tutorial assumes original OpenGL/core code, but can also easily be adapted to WebGL
+which is a little stricter with float/int casting. So without further ado lets get into it...
+</p>
+
+<p class="topic">Minimal Raymarching loop:</p>
+<p>
+So just to get something on the screen quickly, let us start with a very basic mimimalistic raymarching setup like so.
+</p>
+<p>
+<code>
+uniform float time;<br/>
+float l,z,d,i,t=time;<br/>
+<br/>
+float S(vec3 p){p=mod(p,2)-1;return dot(p,sign(p))-1.5;}<br/>
+<br/>
+void main(){<br/>
+vec2 uv=gl_FragCoord.xy/960.-vec2(1,.6);<br/>
+vec3 p=vec3(0,0,t),r=normalize(vec3(uv,1.));<br/>
+for (i=0,z=0,l=0,d=1;i++<99;p+=r*(d=S(p)/2),z+=d) if (d<1e-5) break;<br/>
+gl_FragColor=vec4(1/z);<br/>
+}<br/>
+</code>
+</p>
+<p>
+Asuming a fixed resolution of 1920x1080 for UV space, the code above consists of setting start position <code>p</code> and extracting a raydirection <code>r</code> from UV coordinates.
+As well as a single line raymarching loop that calls our <code>float S(p)</code> SDF function.
+</p>
+<p><img src="shaderadvent1.png" width=480px><br/></p>
+<p>
+Instead of using a sphere function for the SDF (<code>d=length(p)-radius</code>) i'm picking a simple domain-repeated octahedron
+ shape instead for slightly less uniformity. Once we have a hit we take the one over total z-value to determine the color value.
+</p>
+
+<p class="topic">Adding Shading, Rotation and Color</p>
+<p>
+So now we have a basic marcher up and running, lets modify it a little bit to add some 
+camera rotation, shading and color.
+</p>
+
+<p>
+<code>
+uniform float time;<br/>
+float l,z,d,i,t=time;<br/>
+<br/>
+mat2 R(float a){return mat2(cos(a),-sin(a),sin(a),cos(a));}<br/>
+float S(vec3 p){p=mod(p,2)-1;return dot(p,sign(p))-1.5;}<br/>
+<br/>
+void main(){<br/>
+vec2 uv=gl_FragCoord.xy/960.-vec2(1,.6);<br/>
+vec3 p=vec3(0,0,t),r=normalize(vec3(uv,1.)),e=vec3(.001,0.,0.),n;<br/>
+r.xy*=R(t/7);r.xz*=R(t/9);<br/>
+for (i=0,z=0,l=0,d=1;i++<99;p+=r*(d=S(p)/2),z+=d){<br/>
+    if (d<1e-5) {n=normalize(d-vec3(S(p-e),S(p-e.yxy),S(p-e.yyx)));l=pow(max(0,dot(-r,n)),2);break;}<br/>
+}<br/>
+gl_FragColor=vec4(vec3(1-uv.y,1,1+uv.y)*l/z,1);<br/>
+}<br/>
+</code>
+</p>
+<p>
+As you can see above i've added a small rotation function R that I use to rotate our camera/ray direction (<code>r.xy*=R(t/7);r.xz*=R(t/9);</code>). 
+To get some proper shading, we need to extract a normal <code>n</code> as well and use that to calculate a very basic diffuse/specular lighting by 
+taking the dot-product between the extracted normal and the ray-direction.
+</p>
+<img src="shaderadvent2.png" width=480px><br/>
+<p>
+Lastly, i've added a little orange/blue vertical color-gradient to the overall image (<code>vec3(1-uv.y,1,1+uv.y)</code>) to add a little
+color to the overall picture.
+</p>
+
+<p class="topic">Adding some reflection and vignetting:</p>
+<p>
+Now while the above code looks somewhat passable, you will still not blow any minds in your shaderjam/showdown.
+To add some flair i've developed a small 2-liner hashed-reflection method that will give your visuals a little oompf.
+</p>
+<p>
+<code>
+uniform float time;<br/>
+float l,z,d,i,t=time;<br/>
+<br/>
+vec3 H(vec3 p) {return fract(sin(p*847+p.yzx*463+p.zxy*697)*492);}<br/>
+mat2 R(float a){return mat2(cos(a),-sin(a),sin(a),cos(a));}<br/>
+float S(vec3 p){p=mod(p,2)-1;return dot(p,sign(p))-1.5;}<br/>
+<br/>
+void main(){<br/>
+vec2 uv=gl_FragCoord.xy/960.-vec2(1,.6);<br/>
+vec3 p=vec3(0,0,t),r=normalize(vec3(uv,1.)),e=vec3(.001,0.,0.),n;<br/>
+r.xy*=R(t/7);r.xz*=R(t/9);<br/>
+for (i=0,z=0,l=0,d=1;i++<99;p+=r*(d=S(p)/2),z+=d){<br/>
+    if (d<1e-5) {<br/>
+        n=normalize(d-vec3(S(p-e),S(p-e.yxy),S(p-e.yyx)))+H(p)/99;<br/>
+        p+=n/2;l+=pow(max(0,dot(-r,n)),6);r=reflect(r,n);<br/>
+    }<br/>
+}<br/>
+float v=1-length(uv)/2;<br/>
+gl_FragColor=vec4(vec3(1-uv.y,1,1+uv.y)*v*l/z,1);<br/>
+}<br/>
+</code>
+</p>
+<p>
+For starters, i've added a fairly basic 3in-1out hash function H to use in our hashed reflection.
+</p>
+<p>
+Then from here:<br/>
+1) I'm adding a positional hash to the normal (<code>+H(p)/99</code>)<br/>
+2) Step out of the SDF using the normal (<code>p+=n/2</code>)<br/>
+3) Add the diffuse-specular lighting from the previous step to the lightvalue.<br/>
+4) Reflect the ray-direction using the normal and keep on marching<br/>
+</p>
+</p>
+<img src="shaderadvent3.png" width=480px><br/>
+<p>
+The above method will just keep bouncing around the scene until you run out of marching-steps.
+Not the most speed-optimised approach, but it is extremely small to implement.
+</p>
+<p>
+As a final touch I've added a small vignetting <code>v=1-length(uv/2);</code> to soften the edges.
+</p>
+
+<p class="topic">Conclusion:</p>
+<p>
+I hope you've enjoyed reading this article. I hope this will help you make the visuals for you tiny intro or livecoding 
+session at least somewhat passable without spending hundreds of lines of code. Thanks to Marten Range for setting this up and to
+all other contributors to this years Shader Advent.
+</p>
+<p><a href="index.html">Return to blog overview</a></p>
+<!-- comments -->    
+<aside class="comments" id="comments"> <!-- comments --></aside><!-- comments --> 
+</article> 
+
+</div><!-- container --> 
+<!-- scripts --> 
+</body> 
+</html>
