@@ -33,7 +33,7 @@ A huge shoutout to everyone who contributed to making this happen—you’ve tru
 | Dec 19  | mrange                  | [Rendering Shaders in a 4KiB Windows App](day-19/README.md)|
 | Dec 20  | Superogue               | [Micro Shaders](day-20/README.md)|
 | Dec 21  | Magnus Thor             | [GLSL to WGSL with Compute Shaders](day-21/README.md)|
-| Dec 22  | Teadrinker              | 🎀 *Waiting to be unwrapped!* 🎀         |
+| Dec 22  | Teadrinker              | [Halftoning](day-22/README.md)|
 | Dec 23  | Aldroida                | A Shader Fairytale                        |
 | Dec 24  | *To be announced*       | 🎀 *Waiting to be unwrapped!* 🎀         |
 | Dec 25  | totetmatt               | 🎁 *Waiting to be unwrapped!* 🎁         |
