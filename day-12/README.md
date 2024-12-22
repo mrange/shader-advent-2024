@@ -34,13 +34,9 @@ In JavaScript, we can locate this canvas and request a WebGL context. Here's how
 
 ```javascript
 const canvas = document.getElementById('webGLCanvas');
-const gl = canvas.getContext('webgl');
+const gl = canvas.getContext('webgl2');
 if (!gl) {
-    console.error('WebGL not supported. Falling back on experimental-webgl');
-    gl = canvas.getContext('experimental-webgl');
-}
-if (!gl) {
-    alert('Your browser does not support WebGL');
+    alert("WebGL2 not supported in this browser. Unable to proceed.");
 }
 ```
 
