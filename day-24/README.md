@@ -213,8 +213,6 @@ Alternatively, visit the [shader I uploaded to ShaderToy](https://www.shadertoy.
 ![Shader demonstrating the `renderWorld` function](assets/step1.jpg)
 
 ```glsl
-// CC0: Shader Advent reflection shader example
-
 // Macro definitions for built-in Shadertoy inputs
 #define TIME        iTime        // Current time in seconds since shader start
 #define RESOLUTION  iResolution  // Viewport resolution (width, height, 1)
