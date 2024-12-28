@@ -35,5 +35,5 @@ A huge shoutout to everyone who contributed to making this happen—you’ve tru
 | Dec 21  | Magnus Thor             | [GLSL to WGSL with Compute Shaders](day-21/README.md)|
 | Dec 22  | Teadrinker              | [Halftoning](day-22/README.md)|
 | Dec 23  | Aldroida                | [A Shader Fairytale](day-23/README.md)|
-| Dec 24  | *To be announced*       | [Reflecting on Christmas Eve](day-24/README.md)         |
+| Dec 24  | mrange                  | [Reflecting on Christmas Eve](day-24/README.md)         |
 | Dec 25  | totetmatt               | [Shader & Livecode : Beyond the math and the code](day-25/README.md)|
